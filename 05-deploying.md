@@ -169,7 +169,7 @@ not include the needed URL changes for `swupd` to work properly inside
 the image.
 
 This outputs a file called `release.img` which is directly bootable
-in QEMU. We use the standard `start_qemu.sh` script to invoke QEMU
+in QEMU. We use the standard [start_qemu.sh](files/qemu/start_qemu.sh) script to invoke QEMU
 to then invoke the image and redirect the VM output to our local
 console. For this we also need the `OVMF.fd` file. These can be found
 in the `files` folder inside the training repository.
